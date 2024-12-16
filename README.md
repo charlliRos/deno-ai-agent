@@ -1,11 +1,9 @@
-# diKnow
-
-A [web application](https://xyntechx-diknow.deno.dev) to learn about dinosaurs
+A [web application] to learn about Ai agent with specific knowledge set
 
 ## 🚀 Features
 
-- Search dinosaurs
-- Bookmark dinosaurs (saved in local storage)
+- Chat with Ai with specific knowledge set
+- Chat history
 
 ## 🤖 Technologies
 
@@ -14,13 +12,9 @@ A [web application](https://xyntechx-diknow.deno.dev) to learn about dinosaurs
 ## 🔨 Usage
 
 ```
-git clone https://github.com/xyntechx/diKnow.git
+git clone https://github.com/charlliRos/deno-ai-agent.git
 ```
 
 ```
 deno task start
 ```
-
-## 📇 Credits
-
-Dino data: https://github.com/kjanjua26/jurassic-park/blob/main/data/data.csv
