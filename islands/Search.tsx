@@ -72,10 +72,9 @@ const Search = () => {
     <div class="flex flex-col items-center justify-start md:(w-1/2) w-4/5">
       <input
         type="text"
-        placeholder="Dino Name / Location"
+        placeholder="Ask me anything."
         value={query ? query : ""}
-        onChange={(e) =>
-          setQuery((e.target as HTMLInputElement).value)}
+        onChange={(e) => setQuery((e.target as HTMLInputElement).value)}
         onKeyPress={(e) => handleKeyPress(e)}
         class="p-2 w-full border-2 border-yellow-300 rounded-md text-lg mt-4 text-center duration-300 focus:(outline-none border-yellow-400)"
       />
@@ -93,9 +92,7 @@ const Search = () => {
             <p class="italic text-base mt-4 text-center w-full px-2">
               {result[0]}
             </p>
-            <div
-              class="flex flex-col items-center justify-center w-full mt-5"
-            >
+            <div class="flex flex-col items-center justify-center w-full mt-5">
               <p class="w-full text-left text-lg font-bold -mb-4">
                 🔖 Bookmarked
               </p>
@@ -120,9 +117,7 @@ const Search = () => {
           </div>
         )
         : (
-          <div
-            class="flex flex-col items-center justify-center w-4/5 md:(w-full)"
-          >
+          <div class="flex flex-col items-center justify-center w-4/5 md:(w-full)">
             {result.map((name) => <Info name={name} />)}
           </div>
         )}
