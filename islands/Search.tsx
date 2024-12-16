@@ -59,7 +59,7 @@ const Search = () => {
       }
     }
     if (tempResult.length > 0) setResult(tempResult);
-    else setResult(["No dinosaurs found!"]);
+    else setResult(["Hi, how may i help you today?"]);
   };
 
   const handleKeyPress = (e: KeyboardEvent) => {
